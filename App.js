@@ -2,13 +2,15 @@ import React from 'react';
 import { StyleSheet, View } from 'react-native';
 import Navigation from './src/Navigation/Navigation';
 import MoviePage from './src/screen/Pages/MoviePage';
+import ForgetPassword from './src/screen/Authentication/ForgetPassword';
 
 
 const App = () => {
   return (
     <View style={styles.container}>
       {/* <Navigation /> */}
-    <MoviePage/>
+      <ForgetPassword/>
+  
     </View>
   );
 };

@@ -4,6 +4,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import SplashScreen from '../screen/Splash/SplashScreen';
 import HomeScreen from '../screen/Items/HomeScreen';
 import BottomNavigation from './BottomNavigation';
+import MoviePage from '../screen/Pages/MoviePage';
 
 const Stack = createStackNavigator();
 
@@ -24,6 +25,11 @@ const Navigation = () => {
         <Stack.Screen
           name="BottomNavigation"
           component={BottomNavigation} // Add BottomNavigation as a screen
+          options={{ headerShown: false }} // Optional: Hide header for BottomNavigation
+        />
+         <Stack.Screen
+          name="MoviePage"
+          component={MoviePage} // Add BottomNavigation as a screen
           options={{ headerShown: false }} // Optional: Hide header for BottomNavigation
         />
       </Stack.Navigator>
