@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "607147819352",
+    "project_id": "moviestream-49d0b",
+    "storage_bucket": "moviestream-49d0b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:607147819352:android:5537b445dcbd37fa8d652d",
+        "android_client_info": {
+          "package_name": "com.demoapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkm0Xm_QRjIyBAc4j4ewwWisxaH5ij3UI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:607147819352:android:2df31617f2b407338d652d",
+        "android_client_info": {
+          "package_name": "com.example.signup_login_firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkm0Xm_QRjIyBAc4j4ewwWisxaH5ij3UI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

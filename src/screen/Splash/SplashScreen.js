@@ -1,8 +1,10 @@
 import React, { useEffect, useRef } from 'react';
 import { StyleSheet, Text, Image, View, Animated } from 'react-native';
 import BottomNavigation from '../../Navigation/BottomNavigation'
+import { useNavigation } from '@react-navigation/native';
 
-const SplashScreen = ({ navigation }) => {
+const SplashScreen = () => {
+  let navigation = useNavigation()
   const fadeAnim = useRef(new Animated.Value(0)).current; // Initial opacity value is 0
   const scaleAnim = useRef(new Animated.Value(0.8)).current; // Initial scale value is 0.8
 
@@ -23,7 +25,7 @@ const SplashScreen = ({ navigation }) => {
 
     // Navigate to the Home screen after the animation completes
     setTimeout(() => {
-      navigation.navigate('Home');
+      navigation.navigate('Auth');
     }, 3000);
   }, [fadeAnim, scaleAnim, navigation]);
 
