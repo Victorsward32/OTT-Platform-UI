@@ -31,7 +31,7 @@ const ForgetPassword = () => {
         setBackPressCount(1);
         return true; // prevent default behavior (going back)
       } else if (otpSent && backPressCount === 1) {
-        setOtpSent(false); // Go back to the email entry screen
+        setOtpSent(false); // Go back to the email entry screen 
         setBackPressCount(0); // Reset the back press count
         return true; // prevent default behavior (going back)
       }
